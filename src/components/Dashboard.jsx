@@ -9,8 +9,8 @@ import {
   getLeastPopularTimeSlot,
   getMostPopularDay,
   getInterviewsPerDay,
-  setInterview
  } from "helpers/selectors";
+ import { setInterview } from "helpers/reducers";
 
 const data = [
   {
